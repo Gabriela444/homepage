@@ -1,0 +1,23 @@
+.section__header {
+    background-image:linear-gradient(to left, transparent, #ffffff);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section__subHeader {
+    background-image:linear-gradient(to left, transparent, #ffffff);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section__paragraph {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section__highlightedText {
+    color: #4f00a8;
+}
+
+
+

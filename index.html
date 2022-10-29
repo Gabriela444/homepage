@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cześć, jestem Gabriela</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/photo.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <p><button class="button js_buttonTheme">Włącz <span class="button__themeName">niebieski</span> motyw</button></p>
+    <header class="header">
+        <h1>Gabriela Leszczyńska</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#oMnie">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#etapyTworzeniaMydła">Etapy tworzenia mydła</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#mojeUlubioneUtwory">Moje ulubione utwory</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section" id="oMnie">
+            <h2 class="section__header">O mnie</h2>
+            <p class="section__paragraph">Mam 20 lat, od urodzenia mieszkam w Białymstoku. <br> Aktualnie szukam swojej
+                drogi
+                życiowej, ucząc się i
+                próbując nowych
+                rzeczy. Całkowicie przypadkiem trafiłam na <b>youcode.</b> Od razu pomyślałam: <i>dlaczego, by nie
+                    spróbować?</i> Czuję, że mogę się w tym odnaleźć.</p>
+        </section>
+        <section class="section" id="zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <h3 class="section__subHeader">Kadzidła</h3>
+            <p class="section__paragraph">Robie ziołowe kadzidła. Uwielbiam chodzić po łące i zbierać potrzebne zioła. Proces
+                wiązania w pęki
+                jest bardzo odprężający, a zapach rozchodzi sie wtedy po całym domu. Mniej satysfakcjonujące jest
+                patrzenie <span class="section__highlightedText">kilka tygodni</span> jak schną. <em>Na zdjęciu
+                    kadzidło z bylicy
+                    piołun.</em>
+            </p>
+            <div class="incense"><img class="incense__photo js_photoIncense" width="320" height="240"
+                    src="https://i.postimg.cc/Fz39skFS/IMG-20220925-073511-1.jpg" alt="kadzidła">
+                <p><button class="button js_buttonIncense">Ukryj zdjęcie</button></p>
+            </div>
+            <h3 class="section__header">Mydło</h3>
+            <p class="section__paragraph">Zajmuje się robieniem mydła sodowego. Produkcja domowego mydła to hobby dla osób
+                lubiących
+                lekkie ryzyko i
+                wybitnie cierpliwych. Od wytworzenia do pierwszego użycia należy odczekać aż <span
+                    class="section__highlightedText">3
+                    miesiące</span>, wcześniej mydło jest <strong>silnie żrące i niebezpieczne.</strong> W czasie
+                "leżakowania" ług sodowy reaguje z olejem i w procesie zmydlania powstaje mydło i śladowe ilości
+                nawilżającego glicerolu. <em>Na zdjęciu mydła: bez dodatków, z zieloną glinka i liściem laurowym.</em>
+                Póki
+                co w kształcie babeczek, może kiedyś dorobię się profesjonalnej formy.</p>
+            <div class="soap"><img class="soap__photo js_photoSoap" width="320" height="240"
+                    src="https://i.postimg.cc/DwV2Dggc/IMG-20220921-121515.jpg" alt="mydła">
+                <p><button class="button js_buttonSoap">Ukryj zdjęcie</button></p>
+            </div>
+        </section>
+        <article class="article" id="etapyTworzeniaMydła">
+            <h2 class="article__header">Etapy tworzenia mydła sodowego:</h2>
+            <ol>
+                <li class="article__list">Przygotowanie przepisu w <a target="_blank" rel="noreferrer noopener"
+                        href="http://www.soapcalc.net/calc/soapcalcwp.asp">SoapCalc</a></li>
+                <li class="article__list">Zebranie wszystkich potrzebnych rzeczy ochrony własnej
+                    <ul>
+                        <li class="article__list">okulary ochronne</li>
+                        <li class="article__list">maseczka</li>
+                        <li class="article__list">rękawiczki</li>
+                        <li class="article__list">odzież zakrywająca ręce i nogi</li>
+                    </ul>
+                </li>
+                <li class="article__list">Zebranie wszystkich potrzebnych rzeczy do produkcji mydła
+                    <ul>
+                        <li class="article__list">forma</li>
+                        <li class="article__list">blender</li>
+                        <li class="article__list">termometr</li>
+                        <li class="article__list">miski</li>
+                        <li class="article__list">łyżki</li>
+                        <li class="article__list">garnek</li>
+                        <li class="article__list">karton/skrzynka</li>
+                    </ul>
+                </li>
+                <li class="article__list">Przygotowanie stanowiska – otworzenie okna, wyrzucenie zwierząt i dzieci za drzwi
+                </li>
+                <li class="article__list">Założenie odzieży ochronnej</li>
+                <li class="article__list">Odmierzenie wszystkich składników
+                    <ul>
+                        <li class="article__list">oleju/masła</li>
+                        <li class="article__list">wodorotlenku sodu</li>
+                        <li class="article__list">wody destylowanej</li>
+                        <li class="article__list">dodatków np. ziół</li>
+                    </ul>
+                </li>
+                <li class="article__list">Podgrzanie oleju/masła do temperatury 60-70°C</li>
+                <li class="article__list">Powolne wsypywanie wodorotlenku sodu do wody ciągle mieszając</li>
+                <li class="article__list">Wlanie ługu sodowego do oleju</li>
+                <li class="article__list">Blendowanie do konsystencji budyniu</li>
+                <li class="article__list">Dodanie dodatków</li>
+                <li class="article__list">Przelanie mydła do formy</li>
+                <li class="article__list">Odczekanie 12-36 godzin, aż mydło będzie trzymało formę</li>
+                <li class="article__list">Wyjęcie mydła z formy, krojenie, jeśli jest taka potrzeba i przełożenie do
+                    przewietrznego
+                    kartonu/skrzynki</li>
+                <li class="article__list">Odczekanie 3 miesięcy</li>
+            </ol>
+        </article>
+            <h2 class="section__header">Moje ulubione utwory muzyczne</h2>
+            <section class="section" id="mojeUlubioneUtwory">
+            <table class="table">
+                <caption class="table__caption">Moje ulubione utwory</caption>
+                <tr class="table__row">
+                    <thead>
+                        <th class="table__cell table__header" scope="col">Tytuł</th>
+                        <th class="table__cell table__header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__header" scope="col">Album</th>
+                        <th class="table__cell table__header" scope="col">Rok</th>
+                    </thead>
+                    <tbody>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Miles Above You</th>
+                    <td class="table__cell">Spektrem, Jesse Warren</td>
+                    <td class="table__cell">Miles Above You</td>
+                    <td class="table__cell">2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Little Do You Know</th>
+                    <td class="table__cell">Alex & Sierra</td>
+                    <td class="table__cell">It's About Us</td>
+                    <td class="table__cell">2014</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Riot!</th>
+                    <td class="table__cell" rowspan="2">ONE OK ROCK</td>
+                    <td class="table__cell">Niche Syndrome</td>
+                    <td class="table__cell">2010</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">ONION!</th>
+                    <td class="table__cell">Jinsei×Boku</td>
+                    <td class="table__cell">2013</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">©Copyright by Gabriela Leszczyńska, October 2022 </footer>
+
+
+</body>
+
+</html>

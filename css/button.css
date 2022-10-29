@@ -1,0 +1,18 @@
+.button {
+    border-bottom: 1px solid;
+    color: #362e41;
+    background-color: #ddffe0;
+    padding: 10px 20px;
+    border-style: none;
+    outline: 1px solid #ffffff;
+    box-shadow: 7px 6px 18px 4px #ffffff;
+}
+
+.button:hover {
+    background-color: #c1fdc6;
+    border-bottom: 1px solid;
+}
+
+.button__themeBlue {
+    background-color: #e8fffd;
+}

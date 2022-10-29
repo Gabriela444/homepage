@@ -1,0 +1,31 @@
+.navigation {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__item {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    list-style-type: disc;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #362e41;
+    background-color: #ddffe0;
+    padding: 10px 20px;
+    outline: 1px solid #ffffff;
+    box-shadow: 7px 6px 18px 4px #ffffff;
+}
+
+
+.navigation__link:hover {
+    background-color: #c1fdc6;
+    border-bottom: 1px solid;
+    outline: none;
+}

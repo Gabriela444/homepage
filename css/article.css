@@ -1,0 +1,9 @@
+.article__header {
+    background-image:linear-gradient(to left, transparent, #ffffff);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.article__list {
+    line-height: 1.5;
+}

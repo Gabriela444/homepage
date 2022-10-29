@@ -1,0 +1,19 @@
+.incense {
+    text-align: center;
+}
+
+.soap {
+    text-align: center;
+}
+
+.soap__photo {
+    box-shadow: 7px 6px 18px 4px #7F7F7F;
+}
+
+.incense__photo {
+    box-shadow: 7px 6px 18px 4px #7F7F7F;
+}
+
+.photo__hide {
+    display: none;
+}
