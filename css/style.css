@@ -8,6 +8,9 @@ html {
 
 
 .body {
+    background-image: url("../images/background.jpg");
+    background-position-x: center;
+    background-size: auto;
     background-color: #f0fff1;
     font-family: 'Montserrat', sans-serif;
     max-width: 1200px;
