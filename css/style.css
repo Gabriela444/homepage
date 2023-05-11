@@ -8,10 +8,10 @@ html {
 
 
 .body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.png");
     background-position-x: center;
     background-size: auto;
-    background-color: #f0fff1;
+    background-color: #c4ffc9;
     font-family: 'Montserrat', sans-serif;
     max-width: 1200px;
     margin: auto;
